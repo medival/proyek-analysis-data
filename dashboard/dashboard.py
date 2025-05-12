@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-aotizhongxin_df = pd.read_csv('data_aotizhongxin.csv')
+aotizhongxin_df = pd.read_csv('https://raw.githubusercontent.com/marceloreis/HTI/refs/heads/master/PRSA_Data_20130301-20170228/PRSA_Data_Aotizhongxin_20130301-20170228.csv')
 
 # Remove data for the year 2017
 aotizhongxin_df = aotizhongxin_df[aotizhongxin_df['year'] != 2017]
